@@ -15,5 +15,65 @@
                 }
             }
         },
+        {
+            "PutRequest": {
+                "Item": {
+                    "question": {
+                        "S": "What percentage of supermarket items include palm oil?"
+                    },
+                    "options": {
+                        "S": "50,10,30"
+                    },
+                    "answer": {
+                        "S": "50"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "question": {
+                        "S": "Do you think Toblerone chocolate contains palm oil?"
+                    },
+                    "options": {
+                        "S": "Yes,No"
+                    },
+                    "answer": {
+                        "S": "No"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "question": {
+                        "S": "Do you think Toblerone chocolate contains palm oil?"
+                    },
+                    "options": {
+                        "S": "Yes,No"
+                    },
+                    "answer": {
+                        "S": "No"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "question": {
+                        "S": "Feel like a sweet?"
+                    },
+                    "options": {
+                        "S": "Mentos, Pez, Chuppa Chups,Allens, Pascall, Fantails"
+                    },
+                    "answer": {
+                        "S": "Mentos, Pez, Chuppa Chups"
+                    }
+                }
+            }
+        },
     ]
 }
