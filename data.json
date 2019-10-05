@@ -3,6 +3,9 @@
         {
             "PutRequest": {
                 "Item": {
+                    "no": {
+                        "N": 1
+                    },
                     "question": {
                         "S": "How many football fields are cleared an hour to cultivate palm oil?"
                     },
@@ -18,6 +21,9 @@
         {
             "PutRequest": {
                 "Item": {
+                    "no": {
+                        "N": 2
+                    },
                     "question": {
                         "S": "What percentage of supermarket items include palm oil?"
                     },
@@ -33,6 +39,9 @@
         {
             "PutRequest": {
                 "Item": {
+                    "no": {
+                        "N": 3
+                    },
                     "question": {
                         "S": "Do you think Toblerone chocolate contains palm oil?"
                     },
@@ -48,6 +57,9 @@
         {
             "PutRequest": {
                 "Item": {
+                    "no": {
+                        "N": 4
+                    },
                     "question": {
                         "S": "Do you think Toblerone chocolate contains palm oil?"
                     },
@@ -63,6 +75,9 @@
         {
             "PutRequest": {
                 "Item": {
+                    "no": {
+                        "N": 5
+                    },
                     "question": {
                         "S": "Feel like a sweet?"
                     },
@@ -78,6 +93,9 @@
         {
             "PutRequest": {
                 "Item": {
+                    "no": {
+                        "N": 6
+                    },
                     "question": {
                         "S": "Sometimes products just say vegetable oil because they are not forced to specify. Which is not a name for palm oil?"
                     },
@@ -93,6 +111,9 @@
         {
             "PutRequest": {
                 "Item": {
+                    "no": {
+                        "N": 7
+                    },
                     "question": {
                         "S": "I love 2 instant noodles but I always feel compromised… which one of these is kinda okay?"
                     },
