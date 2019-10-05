@@ -210,5 +210,26 @@
                 }
             }
         },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 13
+                    },
+                    "question": {
+                        "S": "Approximately how many percent global electricity output is produced from renewable sources?"
+                    },
+                    "options": {
+                        "S": "20, 1, 5, 10"
+                    },
+                    "answer": {
+                        "S": "10"
+                    },
+                    "explaination": {
+                        "S": "The remianing 90 percent comes from non renewable sources like oils "
+                    }
+                }
+            }
+        },
     ]
 }
