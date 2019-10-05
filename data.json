@@ -36,7 +36,105 @@
                 }
             }
         },
-        
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 3
+                    },
+                    "question": {
+                        "S": "Climate change affects the gender of sea turtles."
+                    },
+                    "options": {
+                        "S": "True , False"
+                    },
+                    "answer": {
+                        "S": "True"
+                    },
+                    "explaination": {
+                        "S": "Warming temperatures can impact the gender of hatchlings. Sea turtle gender is determined by the temperatures during fertilization. Warming trends could skew the balance of sea turtle offspring and future populations."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 4
+                    },
+                    "question": {
+                        "S": "Nearly 40% of the 11,000 different bird species on Earth are experiencing a significant increase."
+                    },
+                    "options": {
+                        "S": "True , False"
+                    },
+                    "answer": {
+                        "S": "False"
+                    },
+                    "explaination": {
+                        "S": "They are facing a significant decline. "
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 5
+                    },
+                    "question": {
+                        "S": "Sounds from boats and sonar devices are dangerous to whales."
+                    },
+                    "options": {
+                        "S": "True, False"
+                    },
+                    "answer": {
+                        "S": "True"
+                    },
+                    "explaination": {
+                        "S": "Ocean noise created by human activities puts marine species at risk and threatens their survival. In fact, increased noise levels can impact certain species like whales, who rely on the ability to communicate and hear in their natural environment to find food, mates, and avoid predators."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 6
+                    },
+                    "question": {
+                        "S": "Sometimes products just say vegetable oil because they are not forced to specify. Which is not a name for palm oil?"
+                    },
+                    "options": {
+                        "S": "Vegetable oil, PKO, Coconut oil"
+                    },
+                    "answer": {
+                        "S": "Coconut oil"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 7
+                    },
+                    "question": {
+                        "S": "I love 2 instant noodles but I always feel compromised… which one of these is kinda okay?"
+                    },
+                    "options": {
+                        "S": "Fantastic, Nissin, Woolworths Brand, Mie Goreng, Coles Brand"
+                    },
+                    "answer": {
+                        "S": "Coles brand"
+                    }
+                }
+            }
+        },
         {
             "PutRequest": {
                 "Item": {
@@ -159,6 +257,27 @@
                     },
                     "explaination": {
                         "S": "All of these materials can produce paper. Hemp is the more humane and clean option"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 14
+                    },
+                    "question": {
+                        "S": "What happens to plastic waste?"
+                    },
+                    "options": {
+                        "S": "disintegrates, recycled, stays"
+                    },
+                    "answer": {
+                        "S": "stays"
+                    },
+                    "explaination": {
+                        "S": "Plastics at SEA (Sea Education Association): North Pacific Expedition 2012, a 36-day nautical research journey through the the North Pacific subtropical gyre down to the Hawaiian islands, found this to be true. The team was studying plastic pollution in the ocean and found that out of the 66,077 pieces of plastic collected in samples, 95% of it was millimeters in size. For more on their incredible journey, check out the crew’s journal log."
                     }
                 }
             }
