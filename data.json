@@ -324,5 +324,26 @@
                 }
             }
         },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 17
+                    },
+                    "question": {
+                        "S": "Has a mouth but does not speak, has a bed but never sleeps. What is it?"
+                    },
+                    "options": {
+                        "S": "water falls, rivers, , sand, sunshine"
+                    },
+                    "answer": {
+                        "S": "rivers"
+                    },
+                    "explaination": {
+                        "S": ""
+                    }
+                }
+            }
+        },
     ]
 }
