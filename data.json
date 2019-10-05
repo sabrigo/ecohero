@@ -172,7 +172,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 11
+                        "N": 10
                     },
                     "question": {
                         "S": "Appliances that are turned off don't use any electricity?"
@@ -193,7 +193,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 12
+                        "N": 11
                     },
                     "question": {
                         "S": "Hybrid cars are slower and less safe than conventional cars?"
@@ -214,7 +214,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 13
+                        "N": 12
                     },
                     "question": {
                         "S": "Approximately how many percent global electricity output is produced from renewable sources?"
@@ -226,7 +226,28 @@
                         "S": "10"
                     },
                     "explaination": {
-                        "S": "The remianing 90 percent comes from non renewable sources like oils "
+                        "S": "The remianing 90 percent comes from non renewable sources like crude oilss "
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 13
+                    },
+                    "question": {
+                        "S": "Which of the following is an alternative material for making paper?"
+                    },
+                    "options": {
+                        "S": "sheepskin, panda excrement, hemp, all of the above"
+                    },
+                    "answer": {
+                        "S": "all of the above"
+                    },
+                    "explaination": {
+                        "S": "All of these materials can produce paper. Hemp is the more humane and clean option"
                     }
                 }
             }
