@@ -1,0 +1,19 @@
+{
+    "eco_questions": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "question": {
+                        "S": "How many football fields are cleared an hour to cultivate palm oil?"
+                    },
+                    "options": {
+                        "S": "50,100,300"
+                    },
+                    "answer": {
+                        "S": "300"
+                    }
+                }
+            }
+        },
+    ]
+}
