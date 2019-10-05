@@ -4,7 +4,7 @@
             "PutRequest": {
                 "Item": {
                     "question": {
-                        "S": "How many football fields are cleared an hour to cultivate palm oil?"
+                        "S": "Forests around the world are being destroyed around the clock. How many football fields are cleared an hour to cultivate palm oil?"
                     },
                     "options": {
                         "S": "50,100,300"
