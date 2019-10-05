@@ -334,10 +334,94 @@
                         "S": "Has a mouth but does not speak, has a bed but never sleeps. What is it?"
                     },
                     "options": {
-                        "S": "water falls, rivers, , sand, sunshine"
+                        "S": "water falls, rivers, sand, sunshine"
                     },
                     "answer": {
                         "S": "rivers"
+                    },
+                    "explaination": {
+                        "S": ""
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 18
+                    },
+                    "question": {
+                        "S": "I touch your face, I'm in your words, I'm lack of space, and beloved by birds.  What is it?"
+                    },
+                    "options": {
+                        "S": "chickens, autumn,  shadow, air"
+                    },
+                    "answer": {
+                        "S": "air"
+                    },
+                    "explaination": {
+                        "S": ""
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 19
+                    },
+                    "question": {
+                        "S": "What has roots as nobody sees, Is taller than trees, Up, up it goes, And yet never grows?"
+                    },
+                    "options": {
+                        "S": "teenager, bamboo,  clouds, mountains"
+                    },
+                    "answer": {
+                        "S": "mountains"
+                    },
+                    "explaination": {
+                        "S": ""
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 20
+                    },
+                    "question": {
+                        "S": "What grows when it eats, but dies when it drinks?"
+                    },
+                    "options": {
+                        "S": "bubbles, fire, ice"
+                    },
+                    "answer": {
+                        "S": "fire"
+                    },
+                    "explaination": {
+                        "S": ""
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 21
+                    },
+                    "question": {
+                        "S": "This is something with a bark. But it doesn’t have a bite. With a lot of sun and rain. It can grow to a great height. What is it?"
+                    },
+                    "options": {
+                        "S": "dog, tree, ice, airplane"
+                    },
+                    "answer": {
+                        "S": "tree"
                     },
                     "explaination": {
                         "S": ""
