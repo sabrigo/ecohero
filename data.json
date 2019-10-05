@@ -126,5 +126,89 @@
                 }
             }
         },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 8
+                    },
+                    "question": {
+                        "S": "Which uses less water, washing a full load of dishes by hand or in the dishwasher?"
+                    },
+                    "options": {
+                        "S": "By hand, Dish washer"
+                    },
+                    "answer": {
+                        "S": "Dish washer"
+                    },
+                    "explaination": {
+                        "S": "Hand washing dishes can use up to 50 percent more water than a water saving energy efficient dishwasher."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 9
+                    },
+                    "question": {
+                        "S": "What type of supermarket bag is more ecofriendly, paper or plastic?"
+                    },
+                    "options": {
+                        "S": "Plastic, Paper, None of the above"
+                    },
+                    "answer": {
+                        "S": "None of the above"
+                    },
+                    "explaination": {
+                        "S": "Manufacturing and disposing of both paper and plastic bags harms the environment. Bring your own resuable bags instead"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 11
+                    },
+                    "question": {
+                        "S": "Appliances that are turned off don't use any electricity?"
+                    },
+                    "options": {
+                        "S": "True, False"
+                    },
+                    "answer": {
+                        "S": "False"
+                    },
+                    "explaination": {
+                        "S": "Many appliances still uses when turned off for features like clocks, remote control sensors."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 12
+                    },
+                    "question": {
+                        "S": "Hybrid cars are slower and less safe than conventional cars?"
+                    },
+                    "options": {
+                        "S": "True, False"
+                    },
+                    "answer": {
+                        "S": "False"
+                    },
+                    "explaination": {
+                        "S": "Hybrid cars perform on par or better than conventional cars in driveability and safety testing"
+                    }
+                }
+            }
+        },
     ]
 }
