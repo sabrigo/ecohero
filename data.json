@@ -282,5 +282,47 @@
                 }
             }
         },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 15
+                    },
+                    "question": {
+                        "S": "More than half of the breathable oxygen in the world comes from?"
+                    },
+                    "options": {
+                        "S": "oceans, forests, lakes, clouds"
+                    },
+                    "answer": {
+                        "S": "oceans"
+                    },
+                    "explaination": {
+                        "S": "About two-thirds of the world’s breathable oxygen comes from the ocean or, more specifically, from tiny marine plants, called phytoplankton, floating on the ocean’s surface. Like all plants, phytoplankton photosynthesize, converting carbon dioxide to valuable energy and oxygen."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 16
+                    },
+                    "question": {
+                        "S": "What is biggest ocean polluter?"
+                    },
+                    "options": {
+                        "S": "cigarettes, plastic straws, crude oil, plastic bags"
+                    },
+                    "answer": {
+                        "S": "cigarettes"
+                    },
+                    "explaination": {
+                        "S": "All of them. But the biggest polluter is cigarettes according to most recent research"
+                    }
+                }
+            }
+        },
     ]
 }
