@@ -36,7 +36,105 @@
                 }
             }
         },
-        
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 3
+                    },
+                    "question": {
+                        "S": "Climate change affects the gender of sea turtles."
+                    },
+                    "options": {
+                        "S": "True , False"
+                    },
+                    "answer": {
+                        "S": "True"
+                    },
+                    "explaination": {
+                        "S": "Warming temperatures can impact the gender of hatchlings. Sea turtle gender is determined by the temperatures during fertilization. Warming trends could skew the balance of sea turtle offspring and future populations."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 4
+                    },
+                    "question": {
+                        "S": "Nearly 40% of the 11,000 different bird species on Earth are experiencing a significant increase."
+                    },
+                    "options": {
+                        "S": "True , False"
+                    },
+                    "answer": {
+                        "S": "False"
+                    },
+                    "explaination": {
+                        "S": "They are facing a significant decline. "
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 5
+                    },
+                    "question": {
+                        "S": "Sounds from boats and sonar devices are dangerous to whales."
+                    },
+                    "options": {
+                        "S": "True, False"
+                    },
+                    "answer": {
+                        "S": "True"
+                    },
+                    "explaination": {
+                        "S": "Ocean noise created by human activities puts marine species at risk and threatens their survival. In fact, increased noise levels can impact certain species like whales, who rely on the ability to communicate and hear in their natural environment to find food, mates, and avoid predators."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 6
+                    },
+                    "question": {
+                        "S": "Sometimes products just say vegetable oil because they are not forced to specify. Which is not a name for palm oil?"
+                    },
+                    "options": {
+                        "S": "Vegetable oil, PKO, Coconut oil"
+                    },
+                    "answer": {
+                        "S": "Coconut oil"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 7
+                    },
+                    "question": {
+                        "S": "I love 2 instant noodles but I always feel compromised… which one of these is kinda okay?"
+                    },
+                    "options": {
+                        "S": "Fantastic, Nissin, Woolworths Brand, Mie Goreng, Coles Brand"
+                    },
+                    "answer": {
+                        "S": "Coles brand"
+                    }
+                }
+            }
+        },
         {
             "PutRequest": {
                 "Item": {
@@ -159,6 +257,174 @@
                     },
                     "explaination": {
                         "S": "All of these materials can produce paper. Hemp is the more humane and clean option"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 14
+                    },
+                    "question": {
+                        "S": "What happens to plastic waste?"
+                    },
+                    "options": {
+                        "S": "disintegrates, recycled, stays"
+                    },
+                    "answer": {
+                        "S": "stays"
+                    },
+                    "explaination": {
+                        "S": "Plastics at SEA (Sea Education Association): North Pacific Expedition 2012, a 36-day nautical research journey through the the North Pacific subtropical gyre down to the Hawaiian islands, found this to be true. The team was studying plastic pollution in the ocean and found that out of the 66,077 pieces of plastic collected in samples, 95% of it was millimeters in size. For more on their incredible journey, check out the crew’s journal log."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 15
+                    },
+                    "question": {
+                        "S": "More than half of the breathable oxygen in the world comes from?"
+                    },
+                    "options": {
+                        "S": "oceans, forests, lakes, clouds"
+                    },
+                    "answer": {
+                        "S": "oceans"
+                    },
+                    "explaination": {
+                        "S": "About two-thirds of the world’s breathable oxygen comes from the ocean or, more specifically, from tiny marine plants, called phytoplankton, floating on the ocean’s surface. Like all plants, phytoplankton photosynthesize, converting carbon dioxide to valuable energy and oxygen."
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 16
+                    },
+                    "question": {
+                        "S": "What is biggest ocean polluter?"
+                    },
+                    "options": {
+                        "S": "cigarettes, plastic straws, crude oil, plastic bags"
+                    },
+                    "answer": {
+                        "S": "cigarettes"
+                    },
+                    "explaination": {
+                        "S": "All of them. But the biggest polluter is cigarettes according to most recent research"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 17
+                    },
+                    "question": {
+                        "S": "Has a mouth but does not speak, has a bed but never sleeps. What is it?"
+                    },
+                    "options": {
+                        "S": "water falls, rivers, sand, sunshine"
+                    },
+                    "answer": {
+                        "S": "rivers"
+                    },
+                    "explaination": {
+                        "S": ""
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 18
+                    },
+                    "question": {
+                        "S": "I touch your face, I'm in your words, I'm lack of space, and beloved by birds.  What is it?"
+                    },
+                    "options": {
+                        "S": "chickens, autumn,  shadow, air"
+                    },
+                    "answer": {
+                        "S": "air"
+                    },
+                    "explaination": {
+                        "S": ""
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 19
+                    },
+                    "question": {
+                        "S": "What has roots as nobody sees, Is taller than trees, Up, up it goes, And yet never grows?"
+                    },
+                    "options": {
+                        "S": "teenager, bamboo,  clouds, mountains"
+                    },
+                    "answer": {
+                        "S": "mountains"
+                    },
+                    "explaination": {
+                        "S": ""
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 20
+                    },
+                    "question": {
+                        "S": "What grows when it eats, but dies when it drinks?"
+                    },
+                    "options": {
+                        "S": "bubbles, fire, ice"
+                    },
+                    "answer": {
+                        "S": "fire"
+                    },
+                    "explaination": {
+                        "S": ""
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": 21
+                    },
+                    "question": {
+                        "S": "This is something with a bark. But it doesn’t have a bite. With a lot of sun and rain. It can grow to a great height. What is it?"
+                    },
+                    "options": {
+                        "S": "dog, tree, ice, airplane"
+                    },
+                    "answer": {
+                        "S": "tree"
+                    },
+                    "explaination": {
+                        "S": ""
                     }
                 }
             }
