@@ -4,15 +4,15 @@ const AWS = require('aws-sdk');
 const uuidv4 = require('uuid/v4');
 
 const INTENT_REQUEST = 'IntentRequest';
-const EXIT_SKILL_MESSAGE = `You need some rest after helping to build the forest.  See you soon!`;
+const EXIT_SKILL_MESSAGE = `<audio src="s3://ecoheroalexagameshackathon/5_ExitMessage.mp3" />`;
 const ERROR_MESSAGE = `Something unexpected happening while you build, I think you should try again!`;
 const TRY_AGAIN_MESSAGE = `You are very close to save the earth, try harder.`;
-const GAME_COMPLETE_MESSAGE = '%s You have already saved the world. Say restart to play the game again or end to finish.';
-const NEW_USER_WELCOME_MESSAGE = 'TODO: I am new user, set me up with proper intro';
+const GAME_COMPLETE_MESSAGE = '<audio src="s3://ecoheroalexagameshackathon/6_WinScene.mp3" />';
+const NEW_USER_WELCOME_MESSAGE = '<audio src="s3://ecoheroalexagameshackathon/1_Intro.mp3" />';
 const INFO_MESSAGE = `get some help here %s`;
 const GAME_OVER_BAD = `You have doomed us all. But this doesn’t have to be the end for us. Please play again and use what you have learned to save Mother Earth`;
 const EXTRA_INFO = `Each question you answer correctly gives us one more year with Mother Earth. Every incorrect answer takes us closer to irreversible doom. Get ready and save the Earth. It’s up to you Eco Hero.`;
-const EXISTING_USER_WELCOME_MESSAGE = 'You are welcome back to save me again.  Come on at least do this time properly and dont betray me.';
+const EXISTING_USER_WELCOME_MESSAGE = '<audio src="s3://ecoheroalexagameshackathon/4_WelcomeBack .mp3" />';
 
 const documentClient = new AWS.DynamoDB.DocumentClient({ apiVersion: '2012-08-10' });
 var userId = '';
@@ -176,7 +176,7 @@ const AnswerHandler = {
             return await askQuestions(handlerInput);
         }
         else {            
-            return await speak(handlerInput, 'you are doomed');
+            return await speak(handlerInput, '<audio src="s3://ecoheroalexagameshackathon/2_Coughing.mp3" />');
         }
     }
 };
@@ -191,7 +191,7 @@ const SessionEndedRequestHandler = {
         const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
         const currentQuestion = sessionAttributes.currentQuestion;
         const correctlyAnswered = sessionAttributes.correctlyAnswered;
-        if (handlerInput.requestEnvelope.request.intent.slots)
+        if (handlerInput.requestEnvelope.request.intent && handlerInput.requestEnvelope.request.intent.slots)
         {
         var actualAnswer = handlerInput.requestEnvelope.request.intent.slots.answer.value;
         console.log(actualAnswer);
