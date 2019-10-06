@@ -4,7 +4,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 1
+                        "N": "1"
                     },
                     "question": {
                         "S": "How many football fields are cleared an hour to cultivate palm oil?"
@@ -22,7 +22,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 2
+                        "N": "2"
                     },
                     "question": {
                         "S": "What percentage of supermarket items include palm oil?"
@@ -40,7 +40,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 3
+                        "N": "3"
                     },
                     "question": {
                         "S": "Climate change affects the gender of sea turtles."
@@ -61,7 +61,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 4
+                        "N": "4"
                     },
                     "question": {
                         "S": "Nearly 40% of the 11,000 different bird species on Earth are experiencing a significant increase."
@@ -82,7 +82,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 5
+                        "N": "5"
                     },
                     "question": {
                         "S": "Sounds from boats and sonar devices are dangerous to whales."
@@ -103,7 +103,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 6
+                        "N": "6"
                     },
                     "question": {
                         "S": "Sometimes products just say vegetable oil because they are not forced to specify. Which is not a name for palm oil?"
@@ -121,7 +121,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 7
+                        "N": "7"
                     },
                     "question": {
                         "S": "I love 2 instant noodles but I always feel compromised… which one of these is kinda okay?"
@@ -139,7 +139,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 8
+                        "N": "8"
                     },
                     "question": {
                         "S": "Which uses less water, washing a full load of dishes by hand or in the dishwasher?"
@@ -160,7 +160,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 9
+                        "N": "9"
                     },
                     "question": {
                         "S": "What type of supermarket bag is more ecofriendly, paper or plastic?"
@@ -181,7 +181,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 10
+                        "N": "10"
                     },
                     "question": {
                         "S": "Appliances that are turned off don't use any electricity?"
@@ -202,7 +202,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 11
+                        "N": "11"
                     },
                     "question": {
                         "S": "Hybrid cars are slower and less safe than conventional cars?"
@@ -223,7 +223,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 12
+                        "N": "12"
                     },
                     "question": {
                         "S": "Approximately how many percent global electricity output is produced from renewable sources?"
@@ -244,7 +244,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 13
+                        "N": "13"
                     },
                     "question": {
                         "S": "Which of the following is an alternative material for making paper?"
@@ -265,7 +265,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 14
+                        "N": "14"
                     },
                     "question": {
                         "S": "What happens to plastic waste?"
@@ -286,7 +286,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 15
+                        "N": "15"
                     },
                     "question": {
                         "S": "More than half of the breathable oxygen in the world comes from?"
@@ -307,7 +307,7 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 16
+                        "N": "16"
                     },
                     "question": {
                         "S": "What is biggest ocean polluter?"
@@ -328,22 +328,106 @@
             "PutRequest": {
                 "Item": {
                     "no": {
-                        "N": 17
+                        "N": "17"
                     },
                     "question": {
                         "S": "Has a mouth but does not speak, has a bed but never sleeps. What is it?"
                     },
                     "options": {
-                        "S": "water falls, rivers, , sand, sunshine"
+                        "S": "water falls, rivers, sand, sunshine"
                     },
                     "answer": {
                         "S": "rivers"
                     },
                     "explaination": {
-                        "S": ""
+                        "S": " "
                     }
                 }
             }
         },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": "18"
+                    },
+                    "question": {
+                        "S": "I touch your face, I'm in your words, I'm lack of space, and beloved by birds.  What is it?"
+                    },
+                    "options": {
+                        "S": "chickens, autumn,  shadow, air"
+                    },
+                    "answer": {
+                        "S": "air"
+                    },
+                    "explaination": {
+                        "S": " "
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": "19"
+                    },
+                    "question": {
+                        "S": "What has roots as nobody sees, Is taller than trees, Up, up it goes, And yet never grows?"
+                    },
+                    "options": {
+                        "S": "teenager, bamboo,  clouds, mountains"
+                    },
+                    "answer": {
+                        "S": "mountains"
+                    },
+                    "explaination": {
+                        "S": " "
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": "20"
+                    },
+                    "question": {
+                        "S": "What grows when it eats, but dies when it drinks?"
+                    },
+                    "options": {
+                        "S": "bubbles, fire, ice"
+                    },
+                    "answer": {
+                        "S": "fire"
+                    },
+                    "explaination": {
+                        "S": " "
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "no": {
+                        "N": "21"
+                    },
+                    "question": {
+                        "S": "This is something with a bark. But it doesn’t have a bite. With a lot of sun and rain. It can grow to a great height. What is it?"
+                    },
+                    "options": {
+                        "S": "dog, tree, ice, airplane"
+                    },
+                    "answer": {
+                        "S": "tree"
+                    },
+                    "explaination": {
+                        "S": " "
+                    }
+                }
+            }
+        }
     ]
 }
