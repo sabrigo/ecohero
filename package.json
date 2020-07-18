@@ -3,7 +3,7 @@
         "ask-sdk": "^2.5.2",
         "async": "^2.6.2",
         "es6-promisify": "^6.0.1",
-        "lodash": "^4.17.11",
+        "lodash": "^4.17.19",
         "node_module": "0.0.0"
     }
 }
